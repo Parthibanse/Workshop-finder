@@ -23,7 +23,7 @@ def main():
     if channel != "All":
         filtered_df = filtered_df[filtered_df["Channel"] == channel]
     if body shop != "All":
-        filtered_df = filtered_df[filtered_df["Bodyshop"].str.strip() == bodyshop]
+        filtered_df = filtered_df[filtered_df["body shop"].str.strip() == body shop]
     if State != "All":
         filtered_df = filtered_df[filtered_df["State"] == State]
     
